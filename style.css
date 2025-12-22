@@ -30,6 +30,9 @@ header {
     color: var(--dark-text);
     padding: 1rem 0;
     border-bottom: 1px solid var(--dark-border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
